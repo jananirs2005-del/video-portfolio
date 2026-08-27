@@ -159,7 +159,7 @@ const toggleSound = () => {
             </p>
 
             <p>
-              Currently pursuing my third year with a CGPA of 8.10.
+              Currently pursuing my third year with a CGPA of ---.
               Building a strong foundation in programming, web development,
               databases, networking and software development.
             </p>
