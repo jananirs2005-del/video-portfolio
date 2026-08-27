@@ -49,8 +49,7 @@ const toggleSound = () => {
 <br></br>
         <div className="hero-content">
           <p className="small-title">
-            COMPUTER SCIENCE 
-            ENGINEERING STUDENT
+            COMPUTER SCIENCE ENGINEERING STUDENT
           </p>
 
       
@@ -124,7 +123,7 @@ const toggleSound = () => {
 
             <div>
               <strong>CGPA</strong>
-              <span>8.10</span>
+              <span>---</span>
             </div>
 
           </div>
@@ -236,87 +235,232 @@ const toggleSound = () => {
 
       </section>
 
+     {/* ==================== PROJECTS ==================== */}
+<section className="section work" id="work">
 
-      {/* ================= PROJECTS ================= */}
-      <section className="section work" id="work">
+  <div className="section-number">04</div>
 
-        <div className="section-number">04</div>
+  <div className="section-content">
 
-        <div className="section-content">
+    <p className="section-label">SELECTED PROJECTS</p>
 
-          <p className="section-label">SELECTED PROJECTS</p>
+    <h2>
+      Things I've <span>built.</span>
+    </h2>
 
-          <h2>
-            Things I've <span>built.</span>
-          </h2>
+    <div className="project-grid">
 
-          <div className="projects">
-
-            <article className="project-card">
-
-              <div className="project-image project-one">
-                <span>01</span>
-              </div>
-
-              <div className="project-info">
-
-                <p>APP DEVELOPMENT</p>
-
-                <h3>
-                  SMART CLASSROOM &
-                  <br />
-                  TIMETABLE SCHEDULER
-                </h3>
-
-                <p>
-                  A user-friendly application designed for students and
-                  faculty to view and manage class timetables and schedules.
-                </p>
-
-                <div className="tech">
-                  Application Development
-                </div>
-
-              </div>
-
-            </article>
-
-
-            <article className="project-card">
-
-              <div className="project-image project-two">
-                <span>02</span>
-              </div>
-
-              <div className="project-info">
-
-                <p>FULL STACK DEVELOPMENT</p>
-
-                <h3>
-                  PERSONALIZED RECIPE &
-                  <br />
-                  MEAL PLANNER
-                </h3>
-
-                <p>
-                  A meal planning application that helps users plan meals
-                  for the week and manage an available grocery list.
-                </p>
-
-                <div className="tech">
-                  Full Stack Development
-                </div>
-
-              </div>
-
-            </article>
-
-          </div>
-
+      {/* 01 - Smart Classroom */}
+      <article className="project-card">
+        <div className="project-image project-one">
+          <span>01</span>
         </div>
 
-      </section>
+        <div className="project-info">
+          <p>APP DEVELOPMENT</p>
 
+          <h3>
+            SMART CLASSROOM &
+            <br />
+            TIMETABLE SCHEDULER
+          </h3>
+
+          <p>
+            A user-friendly application designed for students
+            and faculty to view and manage class timetables
+            and schedules.
+          </p>
+
+          <div className="tech">
+            Application Development
+          </div>
+
+          <div className="project-buttons">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              Live Demo
+            </a>
+
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              GitHub
+            </a>
+          </div>
+        </div>
+      </article>
+
+
+      {/* 02 - Personalized Recipe */}
+      <article className="project-card">
+        <div className="project-image project-two">
+          <span>02</span>
+        </div>
+
+        <div className="project-info">
+          <p>FULL STACK DEVELOPMENT</p>
+
+          <h3>
+            PERSONALIZED RECIPE &
+            <br />
+            MEAL PLANNER
+          </h3>
+
+          <p>
+            A meal planning application that helps users plan
+            meals for the week and manage an available grocery list.
+          </p>
+
+          <div className="tech">
+            Full Stack Development
+          </div>
+
+          <div className="project-buttons">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              Live Demo
+            </a>
+
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              GitHub
+            </a>
+          </div>
+        </div>
+      </article>
+
+
+      {/* 03 - Travel AI */}
+      <article className="project-card">
+        <div className="project-image project-three">
+          <span>03</span>
+        </div>
+
+        <div className="project-info">
+          <p>AI & WEB DEVELOPMENT</p>
+
+          <h3>TRAVEL AI</h3>
+
+          <p>
+            An AI-powered travel assistant that helps users
+            discover destinations, plan trips, and create
+            personalized travel experiences.
+          </p>
+
+          <div className="tech">
+            React · JavaScript · AI
+          </div>
+
+          <div className="project-buttons">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              Live Demo
+            </a>
+
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              GitHub
+            </a>
+          </div>
+        </div>
+      </article>
+
+
+      {/* 04 - Go Net */}
+      <article className="project-card">
+        <div className="project-image project-four">
+          <span>04</span>
+        </div>
+
+        <div className="project-info">
+          <p>WEB DEVELOPMENT</p>
+
+          <h3>GO NET</h3>
+
+          <p>
+            A modern web application designed to provide
+            a simple, fast, and user-friendly digital experience.
+          </p>
+
+          <div className="tech">
+            React · JavaScript · Web Development
+          </div>
+
+          <div className="project-buttons">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              Live Demo
+            </a>
+
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              GitHub
+            </a>
+          </div>
+        </div>
+      </article>
+
+
+      {/* 05 - Hoxa Travel */}
+      <article className="project-card">
+        <div className="project-image project-five">
+          <span>05</span>
+        </div>
+
+        <div className="project-info">
+          <p>TRAVEL WEB DEVELOPMENT</p>
+
+          <h3>HOXA TRAVEL</h3>
+
+          <p>
+            A travel-focused website for exploring destinations,
+            discovering places, and creating an engaging
+            travel experience.
+          </p>
+
+          <div className="tech">
+            React · JavaScript · Responsive Design
+          </div>
+
+          <div className="project-buttons">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              Live Demo
+            </a>
+
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              GitHub
+            </a>
+          </div>
+        </div>
+      </article>
+
+
+      {/* 06 - Hoxa */}
+      <article className="project-card">
+        <div className="project-image project-six">
+          <span>06</span>
+        </div>
+
+        <div className="project-info">
+          <p>WEB DEVELOPMENT</p>
+
+          <h3>HOXA</h3>
+
+          <p>
+            A creative web project focused on a clean interface,
+            smooth user experience, and modern responsive design.
+          </p>
+
+          <div className="tech">
+            React · JavaScript · CSS
+          </div>
+
+          <div className="project-buttons">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              Live Demo
+            </a>
+
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              GitHub
+            </a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
 
       {/* ================= SKILLS ================= */}
       <section className="section skills" id="skills">

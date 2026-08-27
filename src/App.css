@@ -295,79 +295,177 @@ a {
    PROJECTS
 ========================= */
 
-.projects {
+.project-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 25px;
+  margin-top: 40px;
 }
 
 .project-card {
   background: #101010;
-  border: 1px solid #222;
-  transition: 0.3s;
+  border: 1px solid #292929;
+  overflow: hidden;
+  transition: transform 0.3s ease, border-color 0.3s ease;
 }
 
 .project-card:hover {
   transform: translateY(-8px);
-  border-color: #555;
+  border-color: #666;
 }
 
 .project-image {
-  height: 280px;
+  height: 260px;
   position: relative;
   display: flex;
   align-items: flex-end;
-  padding: 20px;
+  padding: 25px;
+  background-size: cover;
+  background-position: center;
   overflow: hidden;
 }
 
+.project-image span {
+  font-size: 60px;
+  font-weight: 800;
+  opacity: 0.25;
+}
+
+/* Travel AI */
 .project-one {
   background:
-    linear-gradient(135deg, #333, #080808);
+    linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.7)),
+    url("https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1200&q=80");
+  background-size: cover;
+  background-position: center;
 }
 
+/* Go Net */
 .project-two {
   background:
-    linear-gradient(135deg, #222, #555, #080808);
+    linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.7)),
+    url("https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80");
+  background-size: cover;
+  background-position: center;
 }
 
+/* Hoxa Travel */
 .project-three {
   background:
-    linear-gradient(135deg, #111, #444, #050505);
+    linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.7)),
+    url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80");
+  background-size: cover;
+  background-position: center;
 }
 
-.project-image span {
-  font-size: 50px;
-  font-weight: bold;
-  opacity: 0.2;
+/* Hoxa */
+.project-four {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.7)),
+    url("https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=80");
+  background-size: cover;
+  background-position: center;
+}
+
+/* Project 05 */
+.project-five {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)),
+    url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80");
+  background-size: cover;
+  background-position: center;
+}
+
+/* Project 06 */
+.project-six {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)),
+    url("https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1200&q=80");
+  background-size: cover;
+  background-position: center;
 }
 
 .project-info {
-  padding: 25px;
+  padding: 30px;
 }
 
 .project-info > p:first-child {
   font-size: 10px;
   letter-spacing: 2px;
   opacity: 0.5;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
 .project-info h3 {
-  font-size: 22px;
-  margin-bottom: 15px;
+  font-size: 25px;
+  line-height: 1.15;
+  margin-bottom: 18px;
 }
 
 .project-info > p {
   color: #888;
-  line-height: 1.6;
+  line-height: 1.7;
+  margin-bottom: 20px;
 }
 
-.project-link {
+.tech {
   display: inline-block;
-  margin-top: 25px;
-  font-size: 12px;
+  padding: 8px 12px;
+  border: 1px solid #333;
+  font-size: 11px;
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+.project-buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.project-buttons a {
+  display: inline-block;
+  padding: 11px 18px;
+  border: 1px solid #444;
+  font-size: 11px;
+  text-transform: uppercase;
   letter-spacing: 1px;
+  transition: 0.3s;
+}
+
+.project-buttons a:first-child {
+  background: white;
+  color: black;
+  border-color: white;
+}
+
+.project-buttons a:hover {
+  opacity: 0.7;
+}
+
+
+/* =========================
+   MOBILE PROJECTS
+========================= */
+
+@media (max-width: 800px) {
+
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-image {
+    height: 220px;
+  }
+
+  .project-info {
+    padding: 25px;
+  }
+
+  .project-info h3 {
+    font-size: 22px;
+  }
+
 }
 
 
